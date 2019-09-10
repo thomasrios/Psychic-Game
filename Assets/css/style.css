@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    font-family: 'Black Ops One', cursive; 
+    font-size: 30px;
+    background-image: url("https://www.genesisspiritualhealing.com/wp-content/uploads/2018/04/psychic-class-banner-2-1.png");
+    background-position: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.message {
+    display: none;
+    font-size: 40px;
+}
+
+#message-win {
+    color: green;
+}

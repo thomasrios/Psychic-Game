@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Thomas Rios - Psychic Game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>The Psychic Game</h1>
+    <img src="assets/images/MindReader.gif" height="200">
+    <div id="game">
+        <p>Guess what letter I'm thinking of.</p>
+
+        <!-- Win Count -->
+        <p id="winCount">Wins: 0
+            <span id="winCount"></span>
+        </p>
+
+        <!-- Loss Count -->
+        <p id="lossCount"> Losses: 0
+            <span id="lossCount"></span>
+        </p>
+
+        <!-- Guess Count -->
+        <p>Guesses left: 9
+            <span id="guesses-left"></span>
+        </p>
+
+        <!-- Current Guesses -->
+        <p>Your guesses so far:
+            <span id="current-guesses"></span>
+        </p>
+    </div>
+
+    <br>
+    <span class="message" id="message-win">
+        Winner winner chicken dinner! Press any key to play again!
+    </span>
+
+    <span class="message" id="message-lose">
+        LOL you lost to a computer! Press any key to defend humanity in the battle against machines.
+    </span>
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
